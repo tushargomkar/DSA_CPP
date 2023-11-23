@@ -138,3 +138,182 @@
 //     cout<<endl;
 //   }
 // }
+
+// 1
+// 23
+// 456
+// 78910
+
+//   #include <iostream>
+//   using namespace std;
+//   int main() {
+//     int n;
+//     cout << "Enter the number" << endl;
+//     cin >> n;
+//     int i = 1;
+//     int count = 1;
+//     while (i <= n) {
+//       int j = 1;
+//       while (j <= i) {
+//         cout << count << " ";
+//         count++;
+//         j++;
+//       }
+//       cout << endl;
+//       i++;
+//     }
+//   }
+
+// 1
+// 23
+// 345
+// 4567
+
+//   #include <iostream>
+//   using namespace std;
+//   int main() {
+//     int n;
+//     cout << "Enter the number" << endl;
+//     cin >> n;
+//     int i = 1;
+
+//     while (i <= n) {
+//       int value = i;
+//       int j = 1;
+//       while (j <= i) {
+//         cout << value << " ";
+//         value++;
+//         j++;
+//       }
+//       cout << endl;
+//       i++;
+//     }
+//   }
+
+// 1
+// 21
+// 321
+// 4321
+
+//   #include <iostream>
+//   using namespace std;
+//   int main() {
+//     int n;
+//     cout << "Enter the number" << endl;
+//     cin >> n;
+//     int i = 1;
+//     while (i <= n) {
+
+//       int j = 1;
+//       while (j <= i) {
+//        cout<<i-j+1;
+//        j++;
+
+//       }
+//       cout << endl;
+//       i++;
+//     }
+//   }
+
+// AAA
+// BBB
+// CCC
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+//   char sn=65;
+//   while (i <= n) {
+
+//     int j = 1;
+//     while (j <=n) {
+//      cout<<sn;
+//      j++;
+
+//     }
+//     cout << endl;
+//     sn++;
+//     i++;
+//   }
+// }
+
+// another approch
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+
+//     int j = 1;
+//     while (j <= n) {
+//       char ch = 'A' + i - 1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+// ABC
+// ABC
+// ABC
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+
+//     int j = 1;
+//     while (j <= n) {
+//       char ch = 'A' + j - 1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+// ABC
+// DEF
+// GHI
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+//   char ch = 65;
+//   while (i <= n) {
+
+//     int j = 1;
+//     while (j <= n) {
+//       // char ch = 'A' + j - 1;
+//       cout << ch;
+//       j++;
+//       ch++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
