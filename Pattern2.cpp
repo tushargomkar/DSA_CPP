@@ -449,3 +449,161 @@
 //     i++;
 //   }
 // }
+
+// D
+// CD
+// BCD
+// ABCD
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+//     int j = 1;
+//     char ch = 'A' + n - i;
+//     while (j <= i) {
+
+//       cout << ch;
+//       ch++;
+//       j++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+//    *
+//   **
+//  ***
+// ****
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the Number";
+//   cin >> n;
+
+//   int i = 1;
+
+//   while (i <= n) {
+//     int space = n - i;
+//     while (space) {
+//       cout << " ";
+//       space = space - 1;
+//     }
+//     int j = 1;
+//     while (j <= i) {
+//       cout << "*";
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+// }
+
+// ****
+// ***
+// **
+// *
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the Number";
+//   cin >> n;
+
+//   int i = 1;
+
+//   while (i <= n) {
+//     //int space = n - i;
+//     // while (space) {
+//     //   cout << " ";
+//     //   space = space - 1;
+//     // }
+//     int j = 1;
+//     int ch=n-i+1;
+//     while (j <= ch) {
+//       cout << "*";
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+// }
+
+// ****
+//  ***
+//   **
+//    *
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the Number";
+//   cin >> n;
+
+//   int i = 1;
+
+//   while (i <= n) {
+//     int space = i - 1;
+//     while (space) {
+//       cout << " ";
+//       space = space - 1;
+//     }
+//     int j = 1;
+//     int ch = n - i + 1;
+//     while (j <= ch) {
+//       cout << "*";
+//       j++;
+//     }
+//     cout << endl;
+//     i++;
+//   }
+// }
+
+//   1
+//  121
+// 12321
+
+//     #include <iostream>
+//     using namespace std;
+//     int main() {
+//       int n;
+//       cout << "Enter the Number";
+//       cin >> n;
+
+//       int i = 1;
+
+//       while (i <= n) {
+//         int space = n - i;
+//         while (space) {
+//           cout << " ";
+//           space = space - 1;
+//         }
+//         int j = 1;
+
+//         while (j <= i) {
+//           int ch = i - j;
+//           cout << j;
+//           j++;
+//           ch++;
+//         }
+
+//         int start = i - 1;
+//         while (start) {
+//           cout << start;
+//           start--;
+//         }
+//         cout << endl;
+//         i++;
+//       }
+//     }
