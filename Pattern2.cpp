@@ -317,3 +317,135 @@
 //     i++;
 //   }
 // }
+
+// ABC
+// BCD
+// CDE
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+//     int j = 1;
+//     char value = 'A' + i-1;
+//     while (j <= n) {
+//       cout << value;
+//       j++;
+//       value++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+// A
+// BB
+// CCC
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+//     int j = 1;
+//     // char value = 'A' + i-1;
+//     while (j <= i) {
+//       char ch = 'A' + i-1;
+//       cout << ch;
+//       j++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+// A
+// BC
+// DEF
+// GHIJ
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+//   char value = 'A';
+//   while (i <= n) {
+//     int j = 1;
+
+//     while (j <= i) {
+//       cout << value;
+//       j++;
+//       value++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+// A
+// BC
+// CDE
+// DEFG
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+//     int j = 1;
+//     char value = 'A'+i-1;
+//     while (j <= i) {
+//       cout << value;
+//       j++;
+//       value++;
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
+
+// A
+// BC
+// CDE
+// DEFG
+
+// #include <iostream>
+// using namespace std;
+// int main() {
+//   int n;
+//   cout << "Enter the number" << endl;
+//   cin >> n;
+//   int i = 1;
+
+//   while (i <= n) {
+//     int j = 1;
+//     while (j <= i) {
+//       char ch= 'A'+i+j-2;
+//       cout <<ch;
+//       j++;
+
+//     }
+//     cout << endl;
+
+//     i++;
+//   }
+// }
